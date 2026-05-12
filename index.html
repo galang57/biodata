@@ -1,22 +1,83 @@
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profil Muhammad Rivaldo Antonio</title>
-    <meta name="description" content="Website resmi Muhammad Rivaldo Antonio, siswa RPL SMK Negeri 3 Lubuklinggau.">
+    
+    <!-- Judul ini yang akan muncul di Google saat orang mencari namamu -->
+    <title>Galang Saputra | Portfolio Resmi</title>
+    
+    <!-- Meta tags agar Google tahu isi website ini -->
+    <meta name="description" content="Website resmi Galang Saputra, siswa Jurusan RPL (Rekayasa Perangkat Lunak) di SMK Negeri 3 Lubuklinggau.">
+    <meta name="keywords" content="Galang Saputra, SMK Negeri 3 Lubuklinggau, RPL, Web Developer">
+    <meta name="author" content="Galang Saputra">
+
     <style>
-        body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background: #121212; color: white; margin: 0; }
-        .card { text-align: center; padding: 2rem; border-radius: 15px; background: #1e1e1e; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
-        h1 { color: #00d4ff; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0f172a;
+            color: #f8fafc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .container {
+            background: rgba(30, 41, 59, 0.7);
+            padding: 3rem;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            max-width: 400px;
+            width: 90%;
+        }
+        h1 {
+            font-size: 2rem;
+            color: #38bdf8;
+            margin-bottom: 0.5rem;
+        }
+        p {
+            font-size: 1rem;
+            color: #94a3b8;
+            margin-bottom: 1.5rem;
+        }
+        .badge {
+            background: #0369a1;
+            padding: 5px 15px;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        .footer {
+            font-size: 0.7rem;
+            color: #475569;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
-    <div class="card">
-        <h1>Halo, Saya Rivaldo</h1>
-        <p>Siswa RPL SMK Negeri 3 Lubuklinggau</p>
-        <p>Website ini dibuat melalui <strong>Termux</strong></p>
+
+    <div class="container">
+        <div class="badge">Siswa RPL</div>
+        <h1>Galang Saputra</h1>
+        <p>SMK Negeri 3 Lubuklinggau</p>
+        <p>Website ini dikembangkan menggunakan <strong>Termux</strong> dan dihosting secara aman dengan <strong>HTTPS</strong>.</p>
+        
+        <div class="footer">
+            &copy; 2026 Galang Saputra. All rights reserved.
+        </div>
     </div>
+
 </body>
 </html>
 
