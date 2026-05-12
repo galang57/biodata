@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://galang57.github.io/biodata/sitemap.xml
+
